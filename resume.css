@@ -47,22 +47,32 @@ header {
   justify-content: space-between;
   border-bottom: 0.1rem solid #adb5bd;
   padding-top: 2.2rem;
-  padding-bottom: 2.2rem; }
+  padding-bottom: 2.2rem;
+  align-items: flex-end;
+}
 
 .name-wrapper {
   padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-right: 2rem;
+}
 
 .title {
-  font-size: 2.2rem; }
+  font-size: 2.2rem;
+}
 
 .sub-title {
   font-size: 1.2rem;
   margin-top: .8rem; }
 
+.communication {
+  width: 100%;
+}
+
 .contact {
   font-size: 1rem;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  width: 100%;
+}
 
 .contact-item {
   margin-top: .4rem; }
@@ -79,7 +89,9 @@ header {
 
   .name-wrapper {
     text-align: center;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+  }
 
   .contact {
     padding-top: 1rem;
@@ -88,6 +100,19 @@ header {
   .contact-item {
     padding-top: .2rem;
     padding-left: .4rem; } }
+
+.reference {
+  margin-top: 1.5rem;
+}
+.reference-title {
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: bold;
+}
+
+.reference-item {
+}
+  
 section {
   display: flex;
   padding-top: 2.4rem;
@@ -99,7 +124,11 @@ section {
 .section-title {
   font-size: 1.6rem;
   text-align: left;
-  min-width: 10rem; }
+  min-width: 10rem;
+  max-width: 10rem;
+  width: 10rem;
+  padding-right: 1.5rem;
+}
 
 .section-flex {
   display: flex;
@@ -118,6 +147,9 @@ section {
 .block-title {
   font-size: 1.2rem;
   margin-bottom: .4rem;
+  font-weight: bold; }
+
+.block-title-small {
   font-weight: bold; }
 
 .block-subtitle {
